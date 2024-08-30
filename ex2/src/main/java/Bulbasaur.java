@@ -61,7 +61,7 @@ public class Bulbasaur {
     public String toString() {
         // TODO: Implement this method
         // Return a string representation of the Bulbasaur object
-        return ("Level: " + this.level + " ID: " + this.id);  // Placeholder return value
+        return ("Level: " + this.level + ", ID: " + this.id);  // Placeholder return value
     }
 
     // equals method
