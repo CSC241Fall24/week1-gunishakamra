@@ -7,7 +7,6 @@ public class Bulbasaur {
         // TODO: Initialize id and level with appropriate values
         this.level = 1;
         this.id = 1;
-
     }
 
     // setLevel method
@@ -16,7 +15,7 @@ public class Bulbasaur {
         // Update the level
         // If the new level is 16 or higher but less than 32, evolve to Ivysaur
         // If the new level is 32 or higher, evolve to Venusaur
-        this.level = lv;
+        this.level = lv; 
 
         if(lv<16){
             this.id = 1;
@@ -48,7 +47,7 @@ public class Bulbasaur {
             else if(this.id == 2){
             return "Ivysaur";
             }
-            else return "Venasaur";
+            else return "Venusaur";
     }
 
     // getID method
@@ -62,7 +61,7 @@ public class Bulbasaur {
     public String toString() {
         // TODO: Implement this method
         // Return a string representation of the Bulbasaur object
-        return ("id : " + this.id + " level = " + this.level);  // Placeholder return value
+        return ("Level: " + this.level + " ID: " + this.id);  // Placeholder return value
     }
 
     // equals method
